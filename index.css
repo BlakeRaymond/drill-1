@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    height: 150px;
+    background-color: darkgrey;
+}
+
+section {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+div {
+    width: 175px;
+    height: 100vw;
+    background-color: lightcoral;
+}
+
+.bottom {
+    height: 150px;
+    width: 100vw;
+    background-color: darkgrey;
+    position: fixed;
+    bottom: 0px;
+    z-index: -1;
+}
